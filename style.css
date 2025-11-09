@@ -159,13 +159,12 @@ h2 {
   display: block;
 }
 
-/* label box under each card — matches theme */
 .project-label {
   margin-top: 10px;
   background-color: #0f0d0d;
-  /* slightly different dark tone for separation */
+
   color: #ffffff;
-  border: 2px solid #ffffff;
+  border: 1px solid #ffffff;
   border-radius: 8px;
   padding: 8px 12px;
   text-align: center;
