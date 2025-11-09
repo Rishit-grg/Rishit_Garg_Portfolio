@@ -231,15 +231,13 @@ h2 {
 
   .intro h1 {
     font-size: 2rem;
-
   }
 
   .subtitle {
-   
     font-size: 1rem;
-  
   }
-  nav {
-  margin-top: 150px;}
 
+  nav {
+    margin-top: 150px;
+  }
 }
