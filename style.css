@@ -10,7 +10,8 @@ body {
   width: 80%;
   margin-left: 10%;
   background-image: url(assets/pexels-joaojesusdesign-925743.jpg);
-  background-size: contain;
+  background-size: 1600px;
+  background-position: center;
   background-position-y: -130px;
   background-repeat: no-repeat;
   background-color: #151515;
@@ -24,7 +25,7 @@ body {
 
 
 nav {
-  margin-top: 40px;
+  margin-top: 80px;
   text-align: center;
   font-size: larger;
 }
@@ -179,11 +180,19 @@ h2 {
 }
 
 
+/* Media Queries */
+@media screen and (max-width: 1300px) {
+  body {
+    margin: 0%;
+    width: 100%;
+    margin-left: 0;
+  }
 
 
 /* Responsive */
-@media (max-width: 1400px) {
+ @media (max-width: 1000px) {
   body {
+    margin-top: 105px;
     margin-left: 0%;
     width: 100%;
   }
@@ -211,7 +220,10 @@ h2 {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 711px) {
+
+  body {
+    margin-top: 170px;
 
   .intro span {
     font-size: 5rem;
@@ -220,7 +232,4 @@ h2 {
   .intro h1 {
     font-size: 2rem;
 
-  }
-}
-
-*/
+}}
